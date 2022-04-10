@@ -85,21 +85,21 @@ installAnlominusKits(){
   sleep 1
   git clone https://github.com/Anlominus/AnySpam.git
 }
+
 # this is the main function
 menu() {
   while true; do
     clear
-
     echo "$logo"
     echo " "
-    echo "${cyan}     [g] ${GREEN}Get Anlominus Kits"
+    echo "${cyan}     [g] ${GREEN}Get ${orange}Anlominus ${ORANGE}Kits"
     echo " "
     echo "${cyan}     [1] ${GREEN}WorKing"
-    echo "${cyan}     [2] ${RED}HacKing"
-    echo "${cyan}     [3] ${orange}AnyGen"
-    echo "${cyan}     [4] ${grey}AnyPhishing"
-    echo "${cyan}     [5] ${MAGENTA}PenTest"
-    echo "${cyan}     [6] ${WHITE}AnySpam"
+    echo "${cyan}     [2] ${REDBG}${orange}Hac${WHITE}King${nc}"
+    echo "${cyan}     [3] ${orange}Any${ORANGE}Gen"
+    echo "${cyan}     [4] ${orange}Any${ORANGE}Phishing"
+    echo "${cyan}     [5] ${MAGENTA}Pen${blue}Test"
+    echo "${cyan}     [6] ${orange}Any${RED}Spam"
     echo " "
     echo "${cyan}     [x] ${green} Exit"
     echo "$prompt"
@@ -109,9 +109,9 @@ menu() {
       installAnlominusKits
       ;;
       1)
-        cd WorKing
-        sh WorKing start
-        cd ..
+      cd WorKing
+      sh WorKing start
+      cd ..
       ;;
       2)
       cd HacKing
@@ -139,8 +139,8 @@ menu() {
       cd ..
       ;;
       x|exit|Exit)
-        echo "${green}Exiting ....${nc}"
-        break
+      echo "${green}Exiting ....${nc}"
+      break
       ;;
       *)
         echo "${red}${cmd}: ${purple}invalid option!!${nc}"
