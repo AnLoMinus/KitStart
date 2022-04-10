@@ -84,6 +84,7 @@ installAnlominusKits(){
   echo "${yellow} [!] ${orange} Copy: AnySpam Repo"
   sleep 1
   git clone https://github.com/Anlominus/AnySpam.git
+  sudo chmod -R +x ./* 
 }
 
 # this is the main function
