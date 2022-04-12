@@ -84,7 +84,16 @@ installAnlominusKits(){
   echo "${yellow} [!] ${orange} Copy: AnySpam Repo"
   sleep 1
   git clone https://github.com/Anlominus/AnySpam.git
-  sudo chmod -R +x ./* 
+  echo "${yellow} [!] ${orange} Copy: HacKits Repo"
+  sleep 1
+  git clone https://github.com/Anlominus/HacKits.git
+  echo "${yellow} [!] ${orange} Copy: FrameWorks Repo"
+  sleep 1
+  git clone https://github.com/Anlominus/FrameWorks.git
+  echo "${yellow} [!] ${orange} Copy: CheatSheets Repo"
+  sleep 1
+  git clone https://github.com/Anlominus/CheatSheets.git
+  sudo chmod -R +x ./*
 }
 
 # this is the main function
@@ -101,6 +110,9 @@ menu() {
     echo "${cyan}     [4] ${orange}Any${ORANGE}Phishing"
     echo "${cyan}     [5] ${MAGENTA}Pen${blue}Test"
     echo "${cyan}     [6] ${orange}Any${RED}Spam"
+    echo "${cyan}     [7] ${orange}Frame${GREEN}Works"
+    echo "${cyan}     [8] ${orange}Hac${ORANGE}Kits"
+    echo "${cyan}     [9] ${orange}Cheat${cyan}Sheets"
     echo " "
     echo "${cyan}     [x] ${green} Exit"
     echo "$prompt"
