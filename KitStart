@@ -151,6 +151,21 @@ menu() {
       sh AnySpam start
       cd ..
       ;;
+      7)
+      cd FrameWorks
+      sh FrameWorks start
+      cd ..
+      ;;
+      8)
+      cd HacKits
+      sh HacKits start
+      cd ..
+      ;;
+      9)
+      cd CheatSheets
+      sh CheatSheets start
+      cd ..
+      ;;
       x|exit|Exit)
       echo "${green}Exiting ....${nc}"
       break
