@@ -48,7 +48,7 @@ Banner(){
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
-  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.0.9    ▒
+  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.1.0    ▒
   ▒ https://www.github.com/Anlominus/KitStart   ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
         One place for All Anlominus Tools
@@ -117,7 +117,7 @@ menu() {
     echo "${green}     [7] ${orange}Frame${GREEN}Works"
     echo "${green}     [8] ${orange}Hac${ORANGE}Kits"
     echo "${green}     [9] ${orange}Cheat${orange}Sheets"
-    echo "${green}     [10] ${white}Anti${cyan}porn"
+    echo "${green}     [10] ${white}Anti${cyan}Porn"
     echo " "
     echo "${green}     [x] ${green} Exit"
     echo "$prompt"
