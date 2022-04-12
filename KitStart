@@ -94,6 +94,9 @@ installAnlominusKits(){
   echo "${yellow} [!] ${orange} Copy: CheatSheets Repo"
   sleep 1
   git clone https://github.com/Anlominus/CheatSheets.git
+  echo "${yellow} [!] ${orange} Copy: AntiPorn Repo"
+  sleep 1
+  git clone https://github.com/Anlominus/AntiPorn.git
   sudo chmod -R +x ./*
 }
 
@@ -114,6 +117,7 @@ menu() {
     echo "${cyan}     [7] ${orange}Frame${GREEN}Works"
     echo "${cyan}     [8] ${orange}Hac${ORANGE}Kits"
     echo "${cyan}     [9] ${orange}Cheat${cyan}Sheets"
+    echo "${cyan}     [10] ${white}Anti${orange}porn"
     echo " "
     echo "${cyan}     [x] ${green} Exit"
     echo "$prompt"
@@ -165,6 +169,11 @@ menu() {
       9)
       cd CheatSheets
       sh CheatSheets start
+      cd ..
+      ;;
+      10)
+      cd AntiPorn
+      sh AntiPorn start
       cd ..
       ;;
       x|exit|Exit)
