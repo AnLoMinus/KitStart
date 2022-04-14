@@ -48,7 +48,7 @@ Banner(){
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ▒         ▀▀█▀▀ █▀▀█ █▀▀█ █   █▀▀             ▒
   ▒           █   █  █ █  █ █   ▀▀█             ▒
-  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.1.0    ▒
+  ▒           ▀   ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀$ORANGE v0.0.0.7    ▒
   ▒ https://www.github.com/Anlominus/KitStart   ▒
   ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
         One place for All Anlominus Tools
@@ -75,17 +75,8 @@ installAnlominusKits(){
   git clone https://github.com/Anlominus/HacKing.git
   echo "${yellow} [!] ${orange} Copy: AnyGen Repo"
   sleep 1
-  git clone https://github.com/Anlominus/AnyGen.git
-  echo "${yellow} [!] ${orange} Copy: AnyPhishing Repo"
-  sleep 1
-  git clone https://github.com/Anlominus/AnyPhishing.git
-  echo "${yellow} [!] ${orange} Copy: PenTest Repo"
-  sleep 1
   git clone https://github.com/Anlominus/PenTest.git
   echo "${yellow} [!] ${orange} Copy: AnySpam Repo"
-  sleep 1
-  git clone https://github.com/Anlominus/AnySpam.git
-  echo "${yellow} [!] ${orange} Copy: HacKits Repo"
   sleep 1
   git clone https://github.com/Anlominus/HacKits.git
   echo "${yellow} [!] ${orange} Copy: FrameWorks Repo"
@@ -108,7 +99,7 @@ menu() {
     echo " "
     echo "${green}     [g] ${GREEN}Get ${orange}Anlominus ${ORANGE}Kits"
     echo " "
-    echo "${green}     [1] ${BLACKBG}${white}WorKing"
+    echo "${green}     [1] ${BLACKBG}${white}WorKing${nc}"
     echo "${green}     [2] ${REDBG}${orange}Hac${WHITE}King${nc}"
     echo "${green}     [3] ${MAGENTA}Pen${blue}Test"
     echo "${green}     [4] ${orange}Hac${ORANGE}Kits"
