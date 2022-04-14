@@ -108,16 +108,13 @@ menu() {
     echo " "
     echo "${green}     [g] ${GREEN}Get ${orange}Anlominus ${ORANGE}Kits"
     echo " "
-    echo "${green}     [1] ${GREEN}WorKing"
+    echo "${green}     [1] ${BLACKBG}${white}WorKing"
     echo "${green}     [2] ${REDBG}${orange}Hac${WHITE}King${nc}"
-    echo "${green}     [3] ${orange}Any${ORANGE}Gen"
-    echo "${green}     [4] ${orange}Any${ORANGE}Phishing"
-    echo "${green}     [5] ${MAGENTA}Pen${blue}Test"
-    echo "${green}     [6] ${orange}Any${RED}Spam"
-    echo "${green}     [7] ${orange}Frame${GREEN}Works"
-    echo "${green}     [8] ${orange}Hac${ORANGE}Kits"
-    echo "${green}     [9] ${orange}Cheat${orange}Sheets"
-    echo "${green}     [10] ${white}Anti${cyan}Porn"
+    echo "${green}     [3] ${MAGENTA}Pen${blue}Test"
+    echo "${green}     [4] ${orange}Hac${ORANGE}Kits"
+    echo "${green}     [5] ${white}Anti${cyan}Porn"
+    echo "${green}     [6] ${orange}Frame${GREEN}Works"
+    echo "${green}     [7] ${orange}Cheat${orange}Sheets"
     echo " "
     echo "${green}     [x] ${green} Exit"
     echo "$prompt"
@@ -137,43 +134,28 @@ menu() {
       cd ..
       ;;
       3)
-      cd AnyGen
-      sh AnyGen start
-      cd ..
-      ;;
-      4)
-      cd AnyPhishing
-      sh AnyPhishing start
-      cd ..
-      ;;
-      5)
       cd PenTest
       sh PenTest start
       cd ..
       ;;
-      6)
-      cd AnySpam
-      sh AnySpam start
-      cd ..
-      ;;
-      7)
-      cd FrameWorks
-      sh FrameWorks start
-      cd ..
-      ;;
-      8)
+      4)
       cd HacKits
       sh HacKits start
       cd ..
       ;;
-      9)
-      cd CheatSheets
-      sh CheatSheets start
-      cd ..
-      ;;
-      10)
+      5)
       cd AntiPorn
       sh AntiPorn start
+      cd ..
+      ;;
+      6)
+      cd FrameWorks
+      sh FrameWorks start
+      cd ..
+      ;;
+      7)
+      cd CheatSheets
+      sh CheatSheets start
       cd ..
       ;;
       x|exit|Exit)
